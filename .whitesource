@@ -1,0 +1,6 @@
+{
+  "settingsInheritedFrom": "vital-ws/whitesource-config@main",
+  "remediateSettings": {
+    "enableRenovate": true
+  }
+}
