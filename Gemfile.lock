@@ -1,15 +1,34 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    concurrent-ruby (1.2.0)
-    karafka-core (2.0.0)
-      concurrent-ruby (>= 1.1)
+    ffi (1.17.4-arm64-darwin)
+    ffi (1.17.4-x86_64-linux-gnu)
+    json (2.20.0)
+    karafka-core (2.6.2)
+      karafka-rdkafka (>= 0.20.0)
+      logger (>= 1.6.0)
+    karafka-rdkafka (0.27.2-arm64-darwin)
+      ffi (~> 1.17.1)
+      json (> 2.0)
+      logger
+      mini_portile2 (~> 2.6)
+      rake (> 12)
+    karafka-rdkafka (0.27.2-x86_64-linux-gnu)
+      ffi (~> 1.17.1)
+      json (> 2.0)
+      logger
+      mini_portile2 (~> 2.6)
+      rake (> 12)
+    logger (1.7.0)
+    mini_portile2 (2.8.9)
+    rake (12.3.3)
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
-  karafka-core (= 2.0.0)
+  karafka-core (= 2.6.2)
 
 RUBY VERSION
    ruby 3.2.0p0
