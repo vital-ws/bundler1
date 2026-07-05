@@ -7,12 +7,13 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   karafka-core (= 2.0.0)
 
 RUBY VERSION
-   ruby 3.2.0p0
+   ruby 3.4.10p104
 
 BUNDLED WITH
    2.4.2
